@@ -1,4 +1,4 @@
-
+# this provides a set up for Capybara to start testing our app
 ENV['RACK_ENV'] = 'test'
 
 require File.join(File.dirname(__FILE__), '..', 'app.rb')
