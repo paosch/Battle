@@ -17,7 +17,7 @@ GEM
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
     public_suffix (3.0.2)
-    rack (2.0.4)
+    rack (2.0.6)
     rack-protection (2.0.4)
       rack
     rack-test (0.8.3)
@@ -51,6 +51,7 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
+  rack (>= 2.0.6)
   rspec
   shotgun
   sinatra (>= 2.0.2)
